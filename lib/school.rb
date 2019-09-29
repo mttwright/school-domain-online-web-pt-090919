@@ -23,7 +23,7 @@ class School
   
   def sort
     @roster.each do |key, student_array|
-      student_array.sort
+      @roster[key] = stundent_array.sort
     end
   end
   
